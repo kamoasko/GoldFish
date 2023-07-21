@@ -1,0 +1,251 @@
+.breadcrumb {
+  column-gap: 1rem;
+  margin-top: 2.3rem;
+}
+
+.breadcrumb a {
+  color: rgba(42, 42, 42, 0.85);
+}
+
+.breadcrumb .active {
+  color: rgba(42, 42, 42, 0.38);
+}
+
+.basket {
+  margin-top: 1rem;
+}
+
+.basket__title {
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.basket__content {
+  margin-top: 2.1rem;
+  display: flex;
+  column-gap: 4.6rem;
+}
+
+.basket__products {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  max-width: 71.7rem;
+  width: 100%;
+  flex: 3;
+}
+
+.basket__products-card {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  column-gap: 3rem;
+  /* justify-content: space-between; */
+}
+
+.basket__products-card h3 {
+  max-width: 21.2rem;
+}
+
+.price {
+  column-gap: 1.1rem;
+}
+
+.price > span {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-decoration: line-through;
+}
+
+.basket__products-card button {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  background: transparent;
+}
+
+.basket__products-image {
+  width: 9.5rem;
+  height: 9.5rem;
+  background-color: var(--color-white);
+  border: 0.1rem solid rgba(217, 217, 217, 0.39);
+  border-radius: 0.9rem;
+  flex: 1;
+}
+
+.basket__products-image img {
+  object-fit: contain;
+}
+
+.basket__products-content {
+  justify-content: space-between;
+  /* column-gap: 4rem; */
+  flex: 4;
+}
+
+.count {
+  column-gap: 1.1rem;
+}
+
+.basket__amount {
+  margin-top: 2rem;
+  background-color: var(--color-white);
+  box-shadow: 0.5rem 0.6rem 1.6rem rgba(42, 42, 42, 0.16);
+  border-radius: 0.9rem;
+  padding: 3.6rem 3.5rem 5.7rem;
+  flex: 1;
+}
+
+.basket__amount > span {
+  margin-top: 1.8rem;
+  display: inline-block;
+}
+
+.amount {
+  font-size: 1.9rem;
+}
+
+.amount > strong {
+  font-size: 3.3rem;
+}
+
+.basket__amount-promocode {
+  margin-top: 0.7rem;
+  outline: 0.1rem solid rgba(42, 42, 42, 0.25);
+  border-radius: 0.9rem;
+  max-width: 28.5rem;
+  justify-content: space-between;
+}
+
+.basket__amount-promocode input {
+  padding-left: 1rem;
+  width: 75%;
+}
+
+.checkbox {
+  background-color: #cacaca;
+  justify-content: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 0.9rem;
+}
+
+.checkbox.active {
+  background-color: transparent;
+  color: var(--color-third);
+}
+
+.basket__btns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.4rem;
+  margin-top: 2.3rem;
+}
+
+.warning {
+  color: red;
+  font-size: 1.4rem;
+}
+
+.amount__btn {
+  background: linear-gradient(184.53deg, #f9a43f 5.27%, #fb791b 91.78%);
+  border-radius: 0.9rem;
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 2.2rem;
+  max-width: 28.1rem;
+  width: 100%;
+  height: 4.9rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.buy__btn {
+  background: var(--color-white);
+  color: var(--color-third);
+  border: 2px solid var(--color-third);
+}
+
+@media (max-width: 1110px) {
+  .breadcrumb,
+  .basket__title,
+  .basket__content {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .basket__content {
+    flex-direction: column;
+    row-gap: 2rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    display: none;
+  }
+
+  .basket__products-card {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    column-gap: 2.8rem;
+  }
+
+  .basket__products-content {
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+  }
+
+  .basket__amount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .basket__amount-promocode {
+    width: 100%;
+  }
+
+  .basket__btns {
+    width: 100%;
+  }
+
+  .amount__btn {
+    max-width: inherit;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .price {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .amount {
+    font-size: 1.6rem;
+  }
+
+  .amount > strong {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .basket__amount-promocode {
+    position: relative;
+  }
+
+  .basket__amount-promocode input {
+    height: 3.4rem;
+  }
+
+  .checkbox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

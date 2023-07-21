@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="./assets/css/basket.css" />
+
+    <title>Корзина</title>
+  </head>
+  <body>
+    <div class="head">
+      <div class="page__head flex container">
+        <div class="page__head-hamburger flex">
+          <div class="bar"></div>
+          <div class="bar b2"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="head__left flex">
+          <div class="head__logo">
+            <a href="./index.html"
+              ><img src="./assets/images/Page-head/Logo.png" alt="Logo"
+            /></a>
+          </div>
+          <div class="head__left-searchbar flex">
+            <input
+              type="text"
+              placeholder="Найти игру"
+              class="searchbar"
+            /><button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <a class="head__tel flex" href=""
+            ><i class="fa-solid fa-phone"></i><span>+7 (495) 911-10-11</span></a
+          >
+        </div>
+        <div class="head__info flex">
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="backdrop hidden"></div>
+
+    <div class="navbar flex container">
+      <div class="head__left-searchbar flex">
+        <input type="text" placeholder="Найти игру" class="searchbar" /><button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="navbar__catalog flex">
+        <div class="navbar__catalog-bars flex">
+          <div class="bar"></div>
+          <div class="bar b2"></div>
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li><a href="">Каталог</a></li>
+        </ul>
+      </div>
+
+      <div class="hamburger__menu">
+        <ul>
+          <li class="menu__catalog">Все категории</li>
+        </ul>
+        <ul class="category">
+          <li>
+            <div class="category__name flex">
+              <span>Настольные игры</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="subcategory">
+              <strong>Настольные игры</strong>
+              <ul class="game-names">
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="category__name flex">
+              <span>Настольные игры</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="subcategory">
+              <strong>Настольные игры</strong>
+              <ul class="game-names">
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__menu flex">
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Wharhammer</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Magic:the Cathering</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Мероприятия</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">О центре</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social__media flex">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-vk"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+    </div>
+
+    <ol class="breadcrumb container flex">
+      <li><a href="">Главная</a></li>
+      <span>&gt;</span>
+      <li><a class="active" href="">Корзина</a></li>
+    </ol>
+
+    <section class="basket container">
+      <div class="basket__title flex"><h2>Корзина</h2></div>
+      <div class="basket__content">
+        <div class="basket__products">
+          <div class="basket__products-card flex" data-id="1">
+            <div class="basket__products-image">
+              <img src="./assets/images/basket/basket1.png" />
+            </div>
+            <div class="basket__products-content flex">
+              <h3>Вампирский Манчкин</h3>
+              <div class="price flex"><strong>743 ₽</strong></div>
+              <div class="flex count">
+                <button class="minus">-</button>
+                <span>1 шт</span>
+                <button class="plus">+</button>
+              </div>
+              <button class="delete" data-id="1">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="basket__products-card flex" data-id="2">
+            <div class="basket__products-image">
+              <img src="./assets/images/basket/basket2.png" />
+            </div>
+            <div class="basket__products-content flex">
+              <h3>Warhammer 40,000: Craftworlds Farseer</h3>
+              <div class="price flex">
+                <span>6490 ₽</span><strong>5990 ₽</strong>
+              </div>
+              <div class="flex count">
+                <button class="minus">-</button>
+                <span>1 шт</span>
+                <button class="plus">+</button>
+              </div>
+              <button class="delete" data-id="2">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="basket__amount">
+          <div class="amount">Сумма: <strong>6733 ₽</strong></div>
+          <span>Промокод:</span>
+          <div class="basket__amount-promocode flex">
+            <input type="text" name="" class="promocode" maxlength="10" />
+            <span class="flex checkbox"><i class="fa-solid fa-check"></i></span>
+          </div>
+          <span class="warning"></span>
+          <div class="basket__btns">
+            <a href="" class="flex amount__btn apply__btn">Оформить</a>
+            <a href="" class="flex amount__btn buy__btn">Купить в 1 клик</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__tb">
+        <div class="container footer__top">
+          <div class="footer__top-items fti">
+            <div class="footer__logo">
+              <a href="./index.html"
+                ><img src="./assets/images/Page-head/Logo.png"
+              /></a>
+            </div>
+            <div>г. Москва ст.м. Таганская Малый Дровяной переулок 6</div>
+          </div>
+          <div class="footer__top-items fti1">
+            <a href="#">Каталог</a>
+            <span
+              >Warhammer 40000 Настольные игры Magic: the Gathering Аксессуары
+              для игр Краски Аксессуары для моделизма</span
+            >
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu-item"><a href="#">Каталог</a></li>
+            <li><a href="#">Правила клуба </a></li>
+            <li><a href="#">Мероприятия</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+          <ul class="footer__top-items fti2">
+            <li><a href="#">Оплата и достака</a></li>
+            <li><a href="#">Гарантия и возврат</a></li>
+          </ul>
+          <div class="footer__top-items">
+            <a href="#" class="footer__btn flex">Заказать звонок</a>
+            <div class="footer__contact">
+              <span>+7 (495) 911-10-11</span> <span>msk@magicgoldfish.ru</span>
+            </div>
+            <div class="social__media flex sm1">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-vk"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom flex container">
+        <div class="copyrights">
+          <span>&copy; 2021 MagicGoldFish.ru</span>
+          <a href="">Политика конфиденциальности</a>
+        </div>
+        <div class="payments flex">
+          <div class="payments__image">
+            <img src="./assets/images/Payments/payments1.png" />
+          </div>
+          <div class="payments__image">
+            <img src="./assets/images/Payments/payments2.png" />
+          </div>
+          <div class="payments__image">
+            <img src="./assets/images/Payments/payments3.png" />
+          </div>
+        </div>
+        <div class="footer__terms">
+          <span>Содержимое не является публичной офертой</span>
+          <a href="">Пользовательское соглашение</a>
+        </div>
+        <div class="footer__mob flex">
+          <a href="">Политика конфиденциальности</a>
+          <span>Содержимое не является публичной офертой</span>
+          <a href="">Пользовательское соглашение</a>
+          <span>&copy; 2021 MagicGoldFish.ru</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/general.css" />
+    <link rel="stylesheet" href="./assets/css/home.css" />
+
+    <title>Goldfish - Homepage</title>
+  </head>
+  <body>
+    <div class="head">
+      <div class="page__head flex container">
+        <div class="page__head-hamburger flex">
+          <div class="bar"></div>
+          <div class="bar b2"></div>
+          <div class="bar"></div>
+        </div>
+        <div class="head__left flex">
+          <div class="head__logo">
+            <a href="./index.html"
+              ><img src="./assets/images/Page-head/Logo.png" alt="Logo"
+            /></a>
+          </div>
+          <div class="head__left-searchbar flex">
+            <input
+              type="text"
+              placeholder="Найти игру"
+              class="searchbar"
+            /><button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <a class="head__tel flex" href=""
+            ><i class="fa-solid fa-phone"></i><span>+7 (495) 911-10-11</span></a
+          >
+        </div>
+        <div class="head__info flex">
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="backdrop hidden"></div>
+
+    <div class="navbar flex container">
+      <div class="head__left-searchbar flex">
+        <input type="text" placeholder="Найти игру" class="searchbar" /><button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="navbar__catalog flex">
+        <div class="navbar__catalog-bars flex">
+          <div class="bar"></div>
+          <div class="bar b2"></div>
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li>
+            <a href=""><strong>Каталог</strong></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hamburger__menu">
+        <ul>
+          <li class="menu__catalog">Все категории</li>
+        </ul>
+        <ul class="category">
+          <li>
+            <div class="category__name flex">
+              <span>Настольные игры</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="subcategory">
+              <strong>Настольные игры</strong>
+              <ul class="game-names">
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="category__name flex">
+              <span>Настольные игры</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="subcategory">
+              <strong>Настольные игры</strong>
+              <ul class="game-names">
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+                <li><a href="">Lorem</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__menu flex">
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Wharhammer</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Magic:the Cathering</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Мероприятия</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">О центре</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="" class="nav__menu-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social__media flex">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-vk"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__slider">
+        <div class="header__slider-image">
+          <img src="./assets/images/Header/Header-image-1.png" />
+        </div>
+
+        <div class="header__slider-image">
+          <img src="./assets/images/Header/Header-image-2.png" />
+        </div>
+
+        <div class="header__slider-image">
+          <img src="./assets/images/Header/Header-image-3.png" />
+        </div>
+
+        <div class="header__slider-image">
+          <img src="./assets/images/Header/Header-image-1.png" />
+        </div>
+
+        <div class="header__slider-image">
+          <img src="./assets/images/Header/Header-image-2.png" />
+        </div>
+
+        <div class="header__slider-image">
+          <img src="./assets/images/Header/Header-image-3.png" />
+        </div>
+      </div>
+      <button class="header__btn prev__btn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="header__btn next__btn">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </header>
+
+    <section class="catalog container">
+      <div class="catalog__title flex"><h2>Каталог</h2></div>
+      <div class="catalog__content">
+        <div class="catalog__card cc1">
+          <div class="catalog__card-image">
+            <img src="./assets/images/Catalog/catalog1.png" />
+          </div>
+          <div class="catalog__card-name ccn1">
+            <a href="#">Настольные игры</a>
+          </div>
+        </div>
+
+        <div class="catalog__card cc2">
+          <div class="catalog__card-image">
+            <img src="./assets/images/Catalog/catalog2.png" />
+          </div>
+          <div class="catalog__card-name">
+            <a href="#">Варгеймы</a>
+          </div>
+        </div>
+
+        <div class="catalog__card cc3">
+          <div class="catalog__card-image">
+            <img src="./assets/images/Catalog/catalog3.png" />
+          </div>
+          <div class="catalog__card-name">
+            <a href="#">Краски</a>
+          </div>
+        </div>
+
+        <div class="catalog__card cc4">
+          <div class="catalog__card-image">
+            <img src="./assets/images/Catalog/catalog4.png" />
+          </div>
+          <div class="catalog__card-name">
+            <a href="#">Magic:the Cathering</a>
+          </div>
+        </div>
+
+        <div class="catalog__card cc5">
+          <div class="catalog__card-image">
+            <img src="./assets/images/Catalog/catalog5.png" />
+          </div>
+          <div class="catalog__card-name">
+            <a href="#">Весь каталог </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sale">
+      <div class="sale__main container1">
+        <button class="prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="container">
+          <div class="sale__title flex"><h2>Успей купить</h2></div>
+          <div class="sale__content">
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale1.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale2.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>На марсе</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale3.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Broken Realms: Horrek's Dreadlance</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale1.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Orks: Ghazghkull Thraka Коллекционный выпуск</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale1.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale2.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>На марсе</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale3.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Broken Realms: Horrek's Dreadlance</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image">
+                <img src="./assets/images/Sale/sale1.png" />
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Orks: Ghazghkull Thraka Коллекционный выпуск</p>
+                <p class="price">3657 ₽</p>
+                <div class="sale__buttons">
+                  <a class="sale__btn add__cart flex" href="#"
+                    ><span>В корзину</span>
+                    <span class="material-symbols-outlined">
+                      shopping_cart
+                    </span></a
+                  >
+                  <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="offer__main container1">
+        <button class="offer__prev prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <div class="container">
+          <div class="offer__title flex">
+            <h2>Специальные предложения</h2>
+          </div>
+          <div class="offer__content">
+            <div class="sale__card">
+              <div class="sale__card-image oci">
+                <img src="./assets/images/Offer/offer1.png" />
+                <span class="discount flex">15%</span>
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <strong class="price1"><span>4350 ₽</span> 3657 ₽</strong>
+                <a class="sale__btn add__cart flex" href="#"
+                  ><span>В корзину</span>
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+                <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image oci">
+                <img src="./assets/images/Offer/offer2.png" />
+                <span class="discount flex">15%</span>
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <strong class="price1"><span>4350 ₽</span> 3657 ₽</strong>
+                <a class="sale__btn add__cart flex" href="#"
+                  ><span>В корзину</span>
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+                <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image oci">
+                <img src="./assets/images/Offer/offer1.png" />
+                <span class="discount flex">15%</span>
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <strong class="price1"><span>4350 ₽</span> 3657 ₽</strong>
+                <a class="sale__btn add__cart flex" href="#"
+                  ><span>В корзину</span>
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+                <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image oci">
+                <img src="./assets/images/Offer/offer2.png" />
+                <span class="discount flex">15%</span>
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <strong class="price1"><span>4350 ₽</span> 3657 ₽</strong>
+                <a class="sale__btn add__cart flex" href="#"
+                  ><span>В корзину</span>
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+                <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image oci">
+                <img src="./assets/images/Offer/offer1.png" />
+                <span class="discount flex">15%</span>
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <strong class="price1"><span>4350 ₽</span> 3657 ₽</strong>
+                <a class="sale__btn add__cart flex" href="#"
+                  ><span>В корзину</span>
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+                <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+              </div>
+            </div>
+
+            <div class="sale__card">
+              <div class="sale__card-image oci">
+                <img src="./assets/images/Offer/offer2.png" />
+                <span class="discount flex">15%</span>
+              </div>
+              <div class="sale__card-info">
+                <div class="game flex">
+                  <div class="game__info flex">
+                    <i class="info fa-solid fa-users"></i> <span>2-4</span>
+                  </div>
+                  <div class="game__info flex">
+                    <span class="info material-symbols-outlined"> timer </span>
+                    <span> 30-60</span>
+                  </div>
+                  <span>18+</span>
+                </div>
+                <p>Warhammer 40,000: Chaos Space Marines</p>
+                <strong class="price1"><span>4350 ₽</span> 3657 ₽</strong>
+                <a class="sale__btn add__cart flex" href="#"
+                  ><span>В корзину</span>
+                  <span class="material-symbols-outlined">
+                    shopping_cart
+                  </span></a
+                >
+                <a class="sale__btn flex" href="#">Купить в 1 клик</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="offer__next next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="events container">
+      <div class="events__title flex"><h2>Ближайшие мероприятия</h2></div>
+      <div class="events__content flex">
+        <div class="events__content-image">
+          <img src="./assets/images/Events/events1.png" />
+          <a href="" class="events__content-link">
+            <div class="link__top flex">
+              <h4>Halloween c GoldFish</h4>
+              <span>31 октября 2021 г. 19:00</span>
+            </div>
+            <p>
+              Мы соберемся,чтобы узнать,кто же все-таки был Мафией и что будет с
+              тем,кого убили..
+            </p>
+          </a>
+        </div>
+
+        <div class="events__content-image">
+          <img src="./assets/images/Events/events2.png" />
+          <a href="" class="events__content-link">
+            <div class="link__top flex">
+              <h4>Турнир Warhammer</h4>
+              <span>9 ноября 2021 г. 18:30</span>
+            </div>
+            <p>
+              Готов сразиться в ожесточенной битве Warhammer? Нет? Мы тебя
+              обязтально научим!
+            </p>
+          </a>
+        </div>
+
+        <div class="events__content-image">
+          <img src="./assets/images/Events/events1.png" />
+          <a href="" class="events__content-link">
+            <div class="link__top flex">
+              <h4>Halloween c GoldFish</h4>
+              <span>31 октября 2021 г. 19:00</span>
+            </div>
+            <p>
+              Мы соберемся,чтобы узнать,кто же все-таки был Мафией и что будет с
+              тем,кого убили..
+            </p>
+          </a>
+        </div>
+
+        <div class="events__content-image">
+          <img src="./assets/images/Events/events2.png" />
+          <a href="" class="events__content-link">
+            <div class="link__top flex">
+              <h4>Турнир Warhammer</h4>
+              <span>9 ноября 2021 г. 18:30</span>
+            </div>
+            <p>
+              Готов сразиться в ожесточенной битве Warhammer? Нет? Мы тебя
+              обязтально научим!
+            </p>
+          </a>
+        </div>
+      </div>
+      <a href="#" class="events__btn flex">Показать еще</a>
+    </section>
+
+    <section class="information container">
+      <div class="information__title flex">
+        <h2>Больше интересной информации</h2>
+      </div>
+      <div class="information__content flex">
+        <div class="information__content-image ici1">
+          <img src="./assets/images/Information/info1.png" />
+          <a href="" class="information__link">
+            <h4>Аэронавтика Империалис: введение в игру</h4>
+            <p>Детально ознакомимся с правилами игры</p>
+          </a>
+        </div>
+
+        <div class="information__content-image ici2">
+          <img src="./assets/images/Information/info2.png" />
+          <a href="" class="information__link">
+            <h4>Лучшие настолки в Steam для игры с друзьми на карантине</h4>
+            <p>По рейтингу 2021</p>
+          </a>
+        </div>
+
+        <div class="information__content-image">
+          <img src="./assets/images/Information/info3.png" />
+          <a href="" class="information__link">
+            <h4>Желанные, но маловероятные релизы</h4>
+            <p>Небольшой список «а вот бы...»</p>
+          </a>
+        </div>
+      </div>
+
+      <a href="#" class="information__btn flex">Узнать больше</a>
+    </section>
+
+    <section class="goldfish flex container">
+      <div class="goldfish__left">
+        <h2>Об игровом центре «GoldFish»</h2>
+        <p>
+          «GoldFish»- магазин, в котором Вы можете купить отличный подарок как
+          для себя, так и для своих близких. <br /><br />
+          В ассортименте нашего магазина представлены тысячи настольных игр на
+          любой вкус: простые и посложнее, семейные и только для взрослых, для
+          двоих и для больших компаний, детективные и логические, ролевые и
+          стратегические настолки. «GoldFish» также регулярно проводит
+          собственные игротеки:турниры по Magic: the Gathering (от компании
+          Wizards of the coast) и Warhammer (от Games Workshop). <br /><br />
+          В нашем магазине можно найти нужные аксессуары для любимых игр
+          (протекторы для карт и коллекций), инструменты для самостоятельного
+          оформления и покраски фигурок (кейсы, подставки, краски Vallejo и др.)
+          и многое другое. <br /><br />
+          «GoldFish» - это не только магазин настольных игр, но и полноценный
+          хобби-центр. Здесь можно арендовать столы для игр с друзьями,
+          проходить обучение и мастер-классы по интересующим тебя играм,
+          заводить новые знакомства и приобщаться к игровому комьюнити!
+        </p>
+      </div>
+      <div class="goldfish__right flex">
+        <h2>Об игровом центре «GoldFish»</h2>
+        <img src="./assets/images/Goldfish/image1.png" />
+      </div>
+    </section>
+
+    <section class="contact container">
+      <div class="contact__title"><h2>Контакты</h2></div>
+      <div class="contact__content flex">
+        <div class="contact__content-left">
+          <div class="contact__detail">
+            <div class="contact__details-info flex">
+              <i class="fa-solid fa-phone-volume"></i
+              ><span><strong>Телефон:</strong>+7 (495) 911-10-11</span>
+            </div>
+
+            <div class="contact__details-info flex">
+              <i class="fa-regular fa-envelope"></i
+              ><span><strong>E-mail:</strong>msk@magicgoldfish.ru</span>
+            </div>
+
+            <div class="contact__details-info flex">
+              <i class="fa-solid fa-location-dot"></i
+              ><span
+                ><strong>Адрес:</strong>г. Москва ст.м. Таганская (кольцевая)
+                Малый Дровяной переулок 6</span
+              >
+            </div>
+
+            <div class="contact__details-info flex">
+              <i class="fa-regular fa-clock"></i
+              ><span
+                ><strong>Режим работы клуба:</strong>11:00-23:00
+                (ежедневно)</span
+              >
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.8477813641118!2d37.65620696053593!3d55.74641841639337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962fabc47c19a5%3A0x36da3429d8e81216!2sHobby-store%20%22Goldfish%22!5e0!3m2!1saz!2saz!4v1685385094134!5m2!1saz!2saz"
+              class="map"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contact__form">
+            <h3>Остались вопросы?</h3>
+            <form action="" class="form">
+              <div class="form__top">
+                <div class="form__inputs">
+                  <div>Ваше имя</div>
+                  <input class="inp" type="text" placeholder="Имя" />
+                </div>
+                <div class="form__inputs">
+                  <div>Ваш телефон</div>
+                  <input class="inp" type="text" placeholder="+7 ___ _______" />
+                </div>
+                <div class="form__inputs">
+                  <div>Ваш комментарий</div>
+                  <textarea
+                    class="inp form__message"
+                    name=""
+                    placeholder="Комментарий"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+              <button class="contact__btn flex">Заказать звонок</button>
+            </form>
+            <span
+              >Нажимая на кнопку "Заказать звонок", я даю
+              <a href="#">согласие на обработку персональных данных.</a></span
+            >
+          </div>
+        </div>
+        <div class="contact__content-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.8477813641118!2d37.65620696053593!3d55.74641841639337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962fabc47c19a5%3A0x36da3429d8e81216!2sHobby-store%20%22Goldfish%22!5e0!3m2!1saz!2saz!4v1685385094134!5m2!1saz!2saz"
+            class="map"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__tb">
+        <div class="container footer__top">
+          <div class="footer__top-items fti">
+            <div class="footer__logo">
+              <a href="./index.html"
+                ><img src="./assets/images/Page-head/Logo.png"
+              /></a>
+            </div>
+            <div>г. Москва ст.м. Таганская Малый Дровяной переулок 6</div>
+          </div>
+          <div class="footer__top-items fti1">
+            <a href="#">Каталог</a>
+            <span
+              >Warhammer 40000 Настольные игры Magic: the Gathering Аксессуары
+              для игр Краски Аксессуары для моделизма</span
+            >
+          </div>
+          <ul class="footer__menu">
+            <li class="footer__menu-item"><a href="#">Каталог</a></li>
+            <li><a href="#">Правила клуба </a></li>
+            <li><a href="#">Мероприятия</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+          <ul class="footer__top-items fti2">
+            <li><a href="#">Оплата и достака</a></li>
+            <li><a href="#">Гарантия и возврат</a></li>
+          </ul>
+          <div class="footer__top-items">
+            <a href="#" class="footer__btn flex">Заказать звонок</a>
+            <div class="footer__contact">
+              <span>+7 (495) 911-10-11</span> <span>msk@magicgoldfish.ru</span>
+            </div>
+            <div class="social__media flex sm1">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-vk"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom flex container">
+        <div class="copyrights">
+          <span>&copy; 2021 MagicGoldFish.ru</span>
+          <a href="">Политика конфиденциальности</a>
+        </div>
+        <div class="payments flex">
+          <div class="payments__image">
+            <img src="./assets/images/Payments/payments1.png" />
+          </div>
+          <div class="payments__image">
+            <img src="./assets/images/Payments/payments2.png" />
+          </div>
+          <div class="payments__image">
+            <img src="./assets/images/Payments/payments3.png" />
+          </div>
+        </div>
+        <div class="footer__terms">
+          <span>Содержимое не является публичной офертой</span>
+          <a href="">Пользовательское соглашение</a>
+        </div>
+        <div class="footer__mob flex">
+          <a href="">Политика конфиденциальности</a>
+          <span>Содержимое не является публичной офертой</span>
+          <a href="">Пользовательское соглашение</a>
+          <span>&copy; 2021 MagicGoldFish.ru</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+    <script src="./assets/js/carousel.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
